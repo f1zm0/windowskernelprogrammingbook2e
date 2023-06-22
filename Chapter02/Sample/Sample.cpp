@@ -1,5 +1,7 @@
 #include <ntddk.h>
 
+#pragma warning(disable: 4996)
+
 #define DRIVER_TAG 'dcba'
 
 UNICODE_STRING g_RegistryPath;
